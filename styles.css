@@ -1,7 +1,11 @@
- body {
+ * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+ }
+
+ body {
     background-color: hsl(0, 0%, 98%);
     font-family: 'poppins', sans-serif;
  }
@@ -42,21 +46,85 @@
     }
 
     .containers {
+      position: relative;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       gap: 20px;
+      padding: 30px;
     }
 
     .supervisor {
       background-color: hsl(0, 0%, 100%);
       border-radius: 10px;
       padding: 20px;
-      text-align: center;
       box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-      border-top: hsl(0, 78%, 62%) 4px solid;
+      border-top: hsl(180, 62%, 55%) solid;
+      border-top-width: 4px;
+      width: 350px;
     }
+
+    .supervisor img {
+      position: absolute;
+      left: 230px;
+      padding: 10px;
+    }
+
+    .team {
+      background-color: hsl(0, 0%, 100%);
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+      border-top: hsl(0, 78%, 62%) solid;
+      border-top-width: 4px;
+      width: 350px;
+    }
+
+    .team img {
+      position: absolute;
+      left: 230px;
+      padding: 10px;
+    }
+
+    .karma {
+      background-color: hsl(0, 0%, 100%);
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+      border-top: hsl(34, 97%, 64%) solid;
+      border-top-width: 4px;
+      width: 350px;
+    }
+
+    .karma img {
+      position: absolute;
+      left: 230px;
+      padding: 10px;
+    }
+
+    .calculator {
+      background-color: hsl(0, 0%, 100%);
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+      border-top: hsl(212, 86%, 64%) solid;
+      border-top-width: 4px;
+      width: 350px;
+    }
+
+    .calculator img {
+      position: absolute;
+      left: 230px;
+      padding: 10px;
+    }
+
+    .containers img {
+      position: relative;
+      
+    }
+
+    
 
 
   
